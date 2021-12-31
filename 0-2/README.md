@@ -26,3 +26,9 @@ go build
 * -o : 出力ファイル名を指定する
 
 とりあえず `-o` 以外は必要に応じて使えるようになる、でよさそう
+
+# docker イメージにしてみよう
+
+## マルチステージビルド
+
+https://docs.docker.com/language/golang/build-images/#multi-stage-builds
