@@ -19,3 +19,10 @@ https://pkg.go.dev/github.com/aws/aws-sdk-go-v2/service/costexplorer#Client.GetC
 
 ↑のAPIを利用して、AWSの利用料を取得する
 
+## 1-1 クラスの定義
+
+Hoge という最もシンプルなクラスの実装
+
+## 1-2 クラスの継承
+
+Hoge を継承した Hoge2 というクラスを作る
