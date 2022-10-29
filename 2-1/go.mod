@@ -1,0 +1,1 @@
+module github.com/Aramassa/study-golang
