@@ -1,1 +1,1 @@
-module github.com/Aramassa/study-golang
+module github.com/Aramassa/study-golang/2-1
