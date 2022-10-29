@@ -41,12 +41,13 @@ Hoge を継承した Hoge2 というクラスを作る
 
 * /cmd
 * /internal
+* /pkg
 
 ref: https://github.com/Aramassa/zenn_articles/wiki#golang
 
 ## 2-2 リモートの pkg を使ってみよう
 
-/pkg で公開したモジュールを公開して、 2-2_ex ディレクトリから使ってみる
+2-1 の /pkg で公開したモジュールを、 2-2 ディレクトリから使ってみる
 
 ## 3-1 test を書いてみよう
 
