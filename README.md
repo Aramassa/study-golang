@@ -35,13 +35,18 @@ Hoge という最もシンプルなクラスの実装
 
 Hoge を継承した Hoge2 というクラスを作る
 
-## 2-1 pkg を作って使ってみよう
+## 2-1 プロジェクト構造作って使ってみよう
 
-pkg を作って、2-1 の中で使ってみる
+以下の構造を作って、2-1 の中から使ってみる
+
+* /cmd
+* /internal
+
+ref: https://github.com/Aramassa/zenn_articles/wiki#golang
 
 ## 2-2 リモートの pkg を使ってみよう
 
-2-1 で作った pkg を git に push して、 2-2 から使ってみる
+/pkg で公開したモジュールを公開して、 2-2_ex ディレクトリから使ってみる
 
 ## 3-1 test を書いてみよう
 
@@ -49,4 +54,11 @@ pkg を作って、2-1 の中で使ってみる
 
 ## 4-1 goroutine + channel で処理をしてみよう
 
-## 5-1 
+## X-1 WEBアプリケーションを作ってAPIを公開してみよう
+
+* OpenAPIを使った RestAPIの構築
+* WEBアプリケーションとしてHTTPで待ち受け
+
+## X-1 DockerContainer を作ってみよう
+
+## X-2 k8s で Podを構築してみよう
