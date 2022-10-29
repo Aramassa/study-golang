@@ -13,17 +13,21 @@ func (h *Hoge) Hello() {
 }
 
 type Hoge2 struct {
-	v2 string
 	Hoge
+	v2 string
 }
 
 func (h *Hoge2) Bye() {
-	fmt.Println("Bye " + h.v2)
+	fmt.Println("Bye " + h.v2 + ", Hello " + h.v1)
 	h.v1 = "test"
 }
 
 func main() {
-	hg1 := Hoge2{v2: "Me2"}
+	hg1 := Hoge{v1: "Name01"}
 	hg1.Hello()
+
+	// あたかも継承のようなことはできるが、初期化方法がややこしい
+	hg2 := Hoge2{Hoge{"Name02-001"}, "Name02"}
+	hg2.Bye()
 
 }
