@@ -49,6 +49,9 @@ ref: https://github.com/Aramassa/zenn_articles/wiki#golang
 
 2-1 の /pkg で公開したモジュールを、 2-2 ディレクトリから使ってみる
 
+`GOMODCACHE` ディレクトリに `go get` したキャッシュが残る。一度DLしたブランチのコードは、キャッシュが優先して利用されるので注意が必要。
+このキャッシュをクリアするには、 `go clean -modcache` フラグをつけて clean する必要がある（ GOMODCACHE がディレクトリごと削除される）
+
 ## 3-1 test を書いてみよう
 
 ## 4-1 goroutine を書いてみよう
