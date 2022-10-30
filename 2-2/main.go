@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	ex := example.Example{MyName: "Test"}
+	ex := example.Example{Name: "Test"}
 	fmt.Println(ex.MyName())
 }
