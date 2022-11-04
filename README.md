@@ -58,11 +58,18 @@ ref: https://github.com/Aramassa/zenn_articles/wiki#golang
 
 ## 4-1 goroutine + channel で処理をしてみよう
 
-## X-1 WEBアプリケーションを作ってAPIを公開してみよう
+## 5-1 WEBアプリケーションを作ってみよう
 
-* OpenAPIを使った RestAPIの構築
+ドキュメントルートにアクセスしたら `Hello World!!` を表示するWEBサイトを作る
+
 * WEBアプリケーションとしてHTTPで待ち受け
 
-## X-1 DockerContainer を作ってみよう
+## 5-2 WEBアプリケーションを作ってAPIを公開してみよう
 
-## X-2 k8s で Podを構築してみよう
+* OpenAPIを使った RestAPIの構築
+
+## 5-3 gRPC サイトを作ろう
+
+## 6-1 DockerContainer を作ってみよう
+
+## 6-2 k8s で Podを構築してみよう
